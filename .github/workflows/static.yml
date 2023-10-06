@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Muhammad Maaz</title>
+    <style>
+        .nav-buttons a:hover {
+            background-color: #444;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        
+        .home {
+            text-align: center;
+            padding: 30px 0;
+        }
+        .profile-picture {
+            display: inline-block;
+            position: relative; 
+            width: 200px; 
+            height: 200px; 
+            overflow: hidden; 
+            border-radius: 10%;
+        }
+        .nav-buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .nav-buttons a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .icon {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #03a30b;
+            color: #080000;
+            text-align: center;
+            padding: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="nav-buttons">
+                <a href="#about">About Me</a>
+                <a href="#resume">Resume</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </ul>
+    </nav>
+    <header>
+        <h1>Muhammad Maaz</h1>
+        <p>Academic Achievements and Skills</p>
+    </header>
+    <section class="home">
+        <section calss="About-me">
+            <h2>About Me</h2>
+        
+        <b><p>Hello Freinds!<p></b>
+        <br><p>
+            My name is Muhammad Maaz. I am 20 year old. My permanent Address is Peshawar Shaheen Town. I am very good at Programing. I have 2 year experience in article writing without any plagiarism. 
+        </p></br>
+        
+            <h2>Welcome</h2>
+            <p>Hello, I'm Muhammad Maaz. Welcome to my portfolio website.</p>
+            <img src="/Images/Profile Pic.jpg" alt="Your Profile Picture" class="profile-picture">
+            
+            
+        </section>
+    </section>
+    <section id="resume">
+        <h2>My Resume</h2>
+        <div class="resume">
+            <h1>Muhammad Maaz</h1>
+            <p>Email: 22pwbcs0933@uetpeshawar.edu.pk</p>
+            <p>Phone: 03417012094</p>
+    
+            <div class="section">
+                <h2>Summary</h2>
+                <p>So Acutally i am to good in Frontend website development and also i have some experience of it. I also worked as a article writer for Gooposts.com</p>
+            </div>
+    
+            <div class="section">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>University Name</strong>: UET Peshawar Main Campus</li>
+                    <li><strong>College Name</strong>: Capital Degree College Peshawar</li>
+                </ul>
+            </div>
+    
+            <div class="section">
+                <h2>Experience</h2>
+                <p><strong>Job Title</strong>: As a Article writer for any kind of website</p>
+                <ul>
+                    <li>i achive in fiverr level 1 and my goal is for looking forward for level 2</li>
+                    <li>i also have some experience in app development</li>
+                </ul>
+            </div>
+    
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Skill 1: Web Developer</li>
+                    <li>Skill 2: Article Writer.</li>
+                    <li>Skill 2: App Developer.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Download Resume</h2>
+                <ul>
+                    <a href="/Resume/My Resume.docx" download>Download PDF</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <div class="section">
+
+             <!-- This is portfolio Area of My pROJECT -->
+
+            <h2>Portfolio</h2>
+            <div class="portfolio">
+                <div class="project">
+                    <h3>Ms Word To PDF Converter</h3>
+                    <p>Project Description: i created app For Ms Word File To Convert to PDF in Andriod Studio In Java Language.</p>
+                    <h2>Project Images</h2>
+                        <p>Hello, I'm Muhammad Maaz. This is my Project Images.</p>
+                           <img src="/Images/Project Images/1.JPG" alt="Your Project Picture" class="profile-picture">
+                           <img src="/Images/Project Images/2.JPG" alt="Your Project Picture" class="profile-picture">
+                           <img src="/Images/Project Images/3.JPG" alt="Your Project Picture" class="profile-picture">
+                </div>
+
+                <div class="project">
+                    <h3>Article Writing</h3>
+                    <p>Project Description: I work for many website in Peshawar and boost up their website Rank.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p class="contact-info">Email: 22pwbcs0933@uetpeshawar.edu.pk</p>
+        <p class="contact-info">Phone: 03417012094</p>
+    <a href="https://www.Gooposts.com" target="_blank">
+        <img src="Images/Icon/Website.png" alt="My Website Link" class="icon">Gooposts</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Created By : Muhammad Maaz</p>
+    </footer>
+</body>
+</html>
